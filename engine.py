@@ -194,8 +194,8 @@ class InferenceEngine(KnowledgeEngine):
     # Colored mucus
     @Rule(Fact(action='deduce_disease'), NOT(Fact(colored_mucus=W())), salience=1)
     def colored_mucus(self):
-        self.declare(Fact(colored_mucus=get_response('¿Tiene mucosidad transparente, blanca, gris, amarillenta? ('
-                                                     'si/no): ')))
+        self.declare(Fact(colored_mucus=get_response(
+            '¿Tiene mucosidad transparente, blanca, gris, amarillenta? (si/no): ')))
 
     # Toxic agents
     @Rule(Fact(action='deduce_disease'), NOT(Fact(toxic_agents=W())), salience=1)

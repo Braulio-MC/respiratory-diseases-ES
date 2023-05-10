@@ -28,8 +28,7 @@ funcionen se requerira cirugia'''
             'bad_breath',
             'stuffy_nose'
         },
-        'treatment': '''Uso de los antibioticos en caso de sinusitis bacteriana junto con el uso de los antibioticos 
-en caso de una sinusitis bacteriana'''
+        'treatment': '''Uso de antibioticos en caso de sinusitis bacteriana'''
     },
     'rinitis': {
         'questions': [
@@ -181,7 +180,7 @@ inhaladores combinados y por ultimo y no menos importante el uso antibioticos'''
         'questions': [
             '¿Tiene tos no productiva?',
             '¿Tiene fatiga?',
-            '¿Tiene mucosidad transparente, blanca, gris, amarillento?'
+            '¿Tiene mucosidad transparente, blanca, gris, amarillenta?'
         ],
         'symptoms': {
             'non_productive_cough',
@@ -210,7 +209,7 @@ bacteriana'''
     'asma': {
         'questions': [
             '¿Tiene problemas para respirar?',
-            '¿Cuenta con Antecedentes heredofamiliares?',
+            '¿Cuenta con antecedentes heredofamiliares?',
             '¿Se escucha un silbido cuando tose?'
         ],
         'symptoms': {
@@ -307,56 +306,4 @@ de esteroides orales o inhalados contar con oxigeno suplementario en caso de eme
         'treatment': '''Se recomienda el uso de antimicrobianos es indispensable contar con oxigeno suplementario 
 de respaldo complementar con administracion de esteroides orales o inhalados'''
     }
-}
-
-questions_reduced = {
-    '¿Tiene nariz congestionada?',
-    '¿Tiene astenia (cansancio)?',
-    '¿Tiene perdida de voz?',
-    '¿Tiene ojos llorosos?',
-    '¿Tiene tiraje intercostal (movimiento de los musculos hacia adentro entre las costillas)?',
-    '¿Tiene diarrea?',
-    '¿Tiene dolor facial?',
-    '¿Cuenta con Antecedentes heredofamiliares?',
-    '¿Tiene problemas para respirar?',
-    '¿Tiene dolor de cabeza recurrente?',
-    '¿Tiene mal aliento?',
-    '¿Tiene irritacion cutanea?',
-    '¿Ha consumido tabaco?',
-    '¿Tiene alta produccion de saliva?',
-    '¿Tiene respiraciones pausadas y prolongadas?',
-    '¿Tiene comezon en el paladar?',
-    '¿Tiene dolor abdominal?',
-    '¿Tiene dolor de pecho?',
-    '¿Tiene tos con vomito?',
-    '¿Tiene dolor de garganta al ingerir alimento?',
-    '¿Tiene ronquidos fuertes?',
-    '¿Tiene inflamacion bucofaringea?',
-    '¿Tiene tos?',
-    '¿Presenta cianosis (coloracion en los dedos)?',
-    '¿Tiene estornudos?',
-    '¿Tiene coloracion rojiza en los pies?',
-    '¿Tiene estornudos continuos?',
-    '¿Tiene perdida de peso?',
-    '¿Tiene estertores (ruidos anormales en la respiracion)?',
-    '¿Tiene sialorrea (exceso de saliva)?',
-    '¿Presenta dolor toracico?',
-    '¿Se escucha un silbido cuando tose?',
-    '¿Tiene secresion nasal?',
-    '¿Tiene comezon de nariz?',
-    '¿Tiene fatiga?',
-    '¿Tiene mucosidad transparente, blanca, gris, amarillento?',
-    '¿Ha respirado agentes toxicos?',
-    '¿Tiene fiebre?',
-    '¿Tiene perdida de apetito?',
-    '¿Tiene obesidad?',
-    '¿Tiene ausencia de tos?',
-    '¿Tiene tos seca?',
-    '¿Tiene tos no productiva?',
-    '¿Ha presentado fiebre?',
-    '¿Tiene moco nasal hialino (transparente y blanco)?',
-    '¿Tiene comezon de ojos?',
-    '¿Tiene cosquilleo y aspereza en la garganta?',
-    '¿Sufre de debilidad?',
-    '¿Tiene alteraciones al gusto?'
 }
